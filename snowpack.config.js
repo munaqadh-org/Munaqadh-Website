@@ -16,5 +16,10 @@ module.exports = {
   alias: {
     components: './src/components',
     pages: './src/pages'
+  },
+  optimize: {
+    bundle: true,
+    minify: true,
+    target: 'es2018',
   }
 };
